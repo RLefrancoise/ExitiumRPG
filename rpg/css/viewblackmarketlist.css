@@ -1,0 +1,23 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/iframe_bg.png");
+	background-repeat: no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+}
+
+#left_arrow:link, #left_arrow:visited, #left_arrow:hover, #left_arrow:active {
+	width:20px;
+	height:20px;
+	display:block;
+}
+
+#right_arrow:link, #right_arrow:visited, #right_arrow:hover, #right_arrow:active {
+	width:20px;
+	height:20px;
+	display:block;
+}
+
+.item_name  {
+	color:rgb(255,128,128);
+	text-decoration:none;
+}

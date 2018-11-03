@@ -1,0 +1,111 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/sd/background.jpg");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+}
+
+#info_ralz {
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/sd/InfosRalz.gif");
+	width:263px;
+	height:200px;
+	color: rgb(49,65,136);
+	font-weight:bold;
+	font-size:17px;
+	
+	
+}
+
+#warehouse_div {
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/sd/Stock.gif");
+	background-repeat : no-repeat;
+	width:775px;
+	height:349px;
+	margin-left:363px;
+	margin-top:70px;
+	position:relative;
+	
+}
+
+#warehouse_div img {
+	display : inline-block;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#store_button:link, #store_button:visited  {
+	width:263px;
+	height:86px;
+	display:inline-block;
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/buttons/store.png");
+	background-repeat : no-repeat;
+}
+
+#store_button:hover {
+	width:263px;
+	height:86px;
+	display:inline-block;
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/buttons/store2.png");
+	background-repeat : no-repeat;
+}
+
+#retrieve_button:link, #retrieve_button:visited  {
+	width:263px;
+	height:86px;
+	display:inline-block;
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/buttons/retrieve.png");
+	background-repeat : no-repeat;
+	
+	margin-top:30px;
+}
+
+#retrieve_button:hover {
+	width:263px;
+	height:86px;
+	display:inline-block;
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/buttons/retrieve2.png");
+	background-repeat : no-repeat;
+	
+	margin-top:30px;
+}
+
+#close_button:link, #close_button:visited  {
+	display:inline-block;
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/buttons/close.png");
+	background-repeat : no-repeat;
+	
+	width:220px;
+	height:93px;
+	margin-left:130px;
+	margin-top:18px;
+	float:left;
+}
+
+#close_button:hover {
+	display:inline-block;
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/buttons/close2.png");
+	background-repeat : no-repeat;
+	
+	width:220px;
+	height:93px;
+	margin-left:130px;
+	margin-top:18px;
+	float:left;
+}
+
+#inventory_div {
+	background-image: url("http://localhost/forumH2/images/rpg/warehouse/sd/Inventaire.gif");
+	background-repeat : no-repeat;
+	width:524px;
+	height:128px;
+	margin-left:500px;
+	position:relative;
+}
+
+#inventory_div img {
+	display : inline-block;
+	position:absolute;
+	top:0;
+	left:0;
+}

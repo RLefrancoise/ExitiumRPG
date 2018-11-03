@@ -1,0 +1,299 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	background-color:rgb(7,114,159);
+	
+}
+
+.avatar {
+	width:200px;
+	height:300px;
+	/*border:1px inset white;*/
+}
+
+.layer1 {
+  z-index: 1;
+}
+ 
+.layer2{
+  z-index: 2;
+}
+
+.anim_multilayer {
+	display : inline-block;
+	position: relative; /*l'élément est positionné mais il se place tout seul*/
+	width: 200px;
+	height: 300px;
+	margin: auto;
+}
+
+.anim_multilayer img {
+  display : inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.anim_multilayer div {
+  display : inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.battle_anim {
+	/*width:200px;
+	height:300px;*/
+}
+
+
+.bars_multilayer {
+	display : inline-block;
+	position: relative; /*l'élément est positionné mais il se place tout seul*/
+	width: 202px;
+	height: 10px;
+	margin: auto;
+	margin-top:5px;
+	/*margin-left : 15%;*/
+}
+
+.bars_multilayer img {
+  display : inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#main {
+	
+	position:fixed;
+	
+	width:800px;
+	height:600px;
+	
+	top:50%;
+	left:50%;
+	margin-left:-400px;
+	margin-top:-300px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/battle/background_sd.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+	
+}
+
+#player_div {
+	
+	width:400px;
+	height:600px;
+	text-align:center;
+}
+
+#character_avatar {
+	border:1px inset white;
+}
+
+#character_orbs {
+	margin-left:5px;
+}
+
+#character_orb1 {
+	display : block;
+	
+	margin-top : 2px;
+	margin-bottom : 2px;
+}
+
+#character_orb2 {
+	display : block;
+	
+	margin-left : 15px;
+	margin-top : 2px;
+	margin-bottom : 2px;
+}
+
+#character_orb3 {
+	display : block;
+	margin-left : 15px;
+	margin-top : 2px;
+	margin-bottom : 2px;
+}
+
+#character_orb4 {
+	display : block;
+	margin-top : 2px;
+	margin-bottom : 2px;
+}
+
+#player_bars {
+	font-size:12px;
+	color:white;
+	text-align:left;
+}
+
+#character_stats {
+	display:inline-block;
+	margin-left:5px;
+	color:white;
+	font-size:12px;
+}
+
+#character_level {
+	text-align: center;
+}
+
+#character_level_display {
+	font-size:20px;
+	margin-top:20px;
+	color: green;
+}
+
+#character_actions {
+	background-image:url("http://localhost/forumH2/images/rpg/battle/sd/actions_bg.gif");
+	background-repeat:no-repeat;
+	vertical-align : middle;
+	width: 231px;
+	height: 119px;
+	color:white;
+}
+
+#character_actions p {
+	cursor:pointer;
+}
+
+
+
+#opponent_div {
+	
+	width:400px;
+	height:600px;
+	text-align:center;
+}
+
+#opponent_name {
+	
+	color:white;
+	font-size:14px;
+	height:50px;
+	line-height:50px;
+	vertical-align:middle;
+	
+	margin-top:-20px;
+}
+
+#msg_box {
+	overflow:hidden;
+	padding-top:5px;
+	padding-left:5px;
+	text-align:left;
+	color:white;
+	font-size:11px;
+	font-family: Calibri, Arial;
+	
+	margin-top:10px;
+	
+	display:inline-block;
+	background-image: url("http://localhost/forumH2/images/rpg/battle/sd/msg_box.gif");
+	background-repeat:no-repeat;
+	width:258px;
+	height:170px;
+}
+
+
+
+#counter {
+	position:absolute;
+	width:99px;
+	height:99px;
+	top:50%;
+	left:50%;
+	margin-left:-50px;
+	margin-top:-50px;
+	background-image: url("http://localhost/forumH2/images/rpg/battle/counter_bg3.gif");
+	background-repeat:no-repeat;
+	
+	color:white;
+	font-size:14px;
+	text-align:center;
+	line-height:99px;
+	vertical-align:middle;
+}
+
+
+
+
+#menu {
+	position:absolute;
+	z-index:200;
+	background-color:rgb(36,55,81);
+	visibility:hidden;
+	border:2px outset white;
+	margin:auto;
+	padding:0;
+}
+
+#menu ul {
+	text-align:left;
+	list-style-type:none;
+	padding:2px;
+	margin:0;
+}
+
+#menu ul li{
+	padding:0;
+	margin:0;
+	color:white;
+}
+
+#menu ul li a:link, #menu ul li a:visited {
+	text-decoration:none;
+	color:white;
+}
+
+#menu ul li a:hover {
+	text-decoration:none;
+	color:rgb(159,241,238);
+}
+
+
+#pvp_info {
+	font-size:12px;
+	background-color:rgb(7,114,159);
+	color:white;
+	position:absolute;
+	display:none;
+	width:150px;
+	height:50px;
+	/*line-height:100px;*/
+	vertical-align:middle;
+	left:50%;
+	top:50%;
+	margin-left:-75px;
+	margin-top:50px;
+	text-align:center;
+}
+
+#counter_pvp{
+	position:absolute;
+	width:99px;
+	height:99px;
+	top:50%;
+	left:50%;
+	margin-left:-50px;
+	margin-top:-50px;
+	background-image: url("http://localhost/forumH2/images/rpg/battle/counter_bg3.gif");
+	background-repeat:no-repeat;
+	
+	color:white;
+	font-size:14px;
+	text-align:center;
+}
+
+#pvp_counter {
+	/*display:inline-block;
+	margin-top:80px;*/
+}

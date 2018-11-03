@@ -1,0 +1,195 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/background.png");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+}
+
+#main_menu {
+	float:right;
+	margin-top:1%;
+	margin-right:1%;
+}
+
+#main_menu_bg {
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/main_menu_bg.png");
+	background-repeat : no-repeat;
+	width:464px;
+	height:694px;
+	margin:auto;
+}
+
+#buy_or_leave {
+	width:420px;
+	height:100px;
+	margin:auto;
+}
+
+#equip_bg {
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/equip_bg.png");
+	background-repeat : no-repeat;
+	width:214px;
+	height:520px;
+	margin-left:13px;
+	margin-bottom:13px;
+}
+
+#set_button:link, #set_button:visited {
+	display:inline-block;
+	width:196px;
+	height:134px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/set_button.png");
+	background-repeat : no-repeat;
+}
+
+#set_button:hover {
+	display:inline-block;
+	width:196px;
+	height:134px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/set_button2.png");
+	background-repeat : no-repeat;
+}
+
+#equip_button:link, #equip_button:visited {
+	display:inline-block;
+	width:196px;
+	height:134px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/equip_button.png");
+	background-repeat : no-repeat;
+}
+
+#equip_button:hover {
+	display:inline-block;
+	width:196px;
+	height:134px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/equip_button2.png");
+	background-repeat : no-repeat;
+}
+
+#upgrade_button:link, #upgrade_button:visited {
+	display:inline-block;
+	width:196px;
+	height:134px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/upgrade_button.png");
+	background-repeat : no-repeat;
+}
+
+#upgrade_button:hover {
+	display:inline-block;
+	width:196px;
+	height:134px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/upgrade_button2.png");
+	background-repeat : no-repeat;
+}
+
+#syringe_button:link, #syringe_button:visited {
+	display:block;
+	width:196px;
+	height:134px;
+	margin:auto;
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/syringe_button.png");
+	background-repeat : no-repeat;
+}
+
+#syringe_button:hover {
+	display:block;
+	width:196px;
+	height:134px;
+	margin:auto;
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/syringe_button2.png");
+	background-repeat : no-repeat;
+}
+
+#special_button:link, #special_button:visited {
+	display:block;
+	width:196px;
+	height:134px;
+	margin:auto;
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/special_button.png");
+	background-repeat : no-repeat;
+}
+
+#special_button:hover {
+	display:block;
+	width:196px;
+	height:134px;
+	margin:auto;
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/special_button2.png");
+	background-repeat : no-repeat;
+}
+
+
+#exit_button:link, #exit_button:visited {
+	display:block;
+	width:178px;
+	height:80px;
+	margin:auto;
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/exit.png");
+	background-repeat : no-repeat;
+}
+
+#exit_button:hover {
+	display:block;
+	width:178px;
+	height:80px;
+	margin:auto;
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/exit2.png");
+	background-repeat : no-repeat;
+}
+
+
+
+
+#iframe_div {
+	width:454px;
+	height:454px;
+	margin:auto;
+	margin-top:1%;
+	margin-right: 3%;
+	visibility : hidden;
+	float:right;
+}
+
+#iframe {
+	width:454px;
+	height:454px;
+	display:block;
+	border-width: 8px;
+	border-color: rgb(209,171,144);
+	border-style:ridge;
+}
+
+#buy_button:link, #buy_button:visited {
+	display:block;
+	width:178px;
+	height:80px;
+	margin-left:30px;
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/buy.png");
+	background-repeat : no-repeat;
+}
+
+#buy_button:hover {
+	display:block;
+	width:178px;
+	height:80px;
+	margin-left:30px;
+	background-image: url("http://localhost/forumH2/images/rpg/blackmarket/buttons/buy2.png");
+	background-repeat : no-repeat;
+}
+
+
+#message {
+	/*background-image: url("http://localhost/forumH2/images/rpg/blackmarket/messages/AchatOK.png");*/
+	width:385px;
+	height:155px;
+	position:fixed;
+	top:2%;
+	left:1%;
+	visibility:hidden;
+}

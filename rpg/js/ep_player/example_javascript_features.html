@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>EP Player</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<script src="js/swfobject.js" type="text/javascript"></script>
+		<script src="js/ep_player.js" type="text/javascript"></script>
+	</head>
+	<body>
+
+	<!-- start player implementation -->
+	<center>
+		
+	<div id="ep_container1">To view the <a href="http://www.epplayer.com/" target="_blank">Flash MP3 Player</a> please update your <a href="http://www.adobe.com/go/getflashplayer/" target="_blank">Flash Player</a>.</div>
+	
+	<script type="text/javascript" defer="defer">
+		
+		////////////////////////////////////////////////////////////////////////////
+		var flashvars = {};
+		flashvars.skin 		= 'skins/basic_black/skin.xml';
+		flashvars.playlist 	= 'playlist.xml';
+		flashvars.autoplay 	= 'false';
+		flashvars.volume 	= '80';
+		flashvars.shuffle 	= 'false';
+		flashvars.key 		= '';
+		
+		////////////////////////////////////////////////////////////////////////////
+		var params = {};
+		params.allowScriptAccess = 'always';
+		
+		////////////////////////////////////////////////////////////////////////////
+		var attributes = {};
+		attributes.id = 'ep_player1';
+		
+		////////////////////////////////////////////////////////////////////////////
+		swfobject.embedSWF(
+			'ep_player.swf', 			// the location of the swf file
+			'ep_container1', 			// the id of the div to print the player in 
+			'400', '350', 				// the width and height of the player
+			'10.0.0',					// the required flash version 
+			false,						// we've disabled express-install to keep it simple
+			flashvars,
+			params,
+			attributes
+		);
+		
+	</script>
+
+		<br /><br />
+	
+		<strong>JS functions</strong><br /><br />                                                               
+    	
+    	<table border="1" cellpadding="5" width="50%">
+    		<tr align="left" valign="top">
+    			<td>Playback: </td>
+    			<td>
+					<a href="javascript:EP_playPause('ep_player1');">play - pause</a> /                                    
+					<a href="javascript:EP_play('ep_player1');">play</a> /                                                  
+					<a href="javascript:EP_pause('ep_player1');">pause</a> /                                                
+					<a href="javascript:EP_stop('ep_player1');">stop</a> /                                                  
+					<a href="javascript:EP_prev('ep_player1');">prev</a> /                                                  
+					<a href="javascript:EP_next('ep_player1');">next</a> 
+    			</td>
+    		</tr>
+    		<tr align="left" valign="top">
+    			<td>Settings: </td>
+    			<td>
+    				<a href="javascript:EP_setVolume('ep_player1', '50');">volume</a> /          
+					<a href="javascript:EP_setShuffle('ep_player1', true);">shuffle</a> /                             
+					<a href="javascript:EP_setRepeat('ep_player1', true);">repeat</a> /                                
+					<a href="javascript:EP_setAutoPlay('ep_player1', true);">autoplay</a> 
+    			</td>
+    		</tr>    	
+    		<tr align="left" valign="top">
+    			<td>Resize:</td>
+    			<td> 
+ 					<a href="javascript:EP_setSize('ep_player1', '600px', '500px');">big</a> /                               
+					<a href="javascript:EP_setSize('ep_player1', '250px', '200px');">small</a> /                             
+					<a href="javascript:EP_setSize('ep_player1', '100%', '500px');">scale to browser window</a>
+    			</td>
+    		</tr>
+    		<tr align="left" valign="top">
+    			<td>Playlist:</td>
+    			<td> 
+					<a href="javascript:EP_addTracks('ep_player1', '<track><location>mp3/welcome.mp3</location><title>Added to begin.</title><creator>Track</creator></track>', 0);">add track to begin</a> / 
+					<a href="javascript:EP_addTracks('ep_player1', '<track><location>mp3/welcome.mp3</location><title>Added to end</title><creator>Track</creator></track>', 999);">add track to end</a> / 
+					<a href="javascript:EP_loadPlaylist('ep_player1', 'playlist.xml');">load playlist</a> /
+					<a href="javascript:EP_clearPlaylist('ep_player1');">clear playlist</a> /                             
+					<a href="javascript:EP_setPlaylist('ep_player1', '<track><location>mp3/welcome.mp3</location><title>Set by Javascript</title><creator>Playlist</creator></track>');">set playlist</a> /
+					<a href="javascript:EP_playTrack('ep_player1', 1)">play track #</a> /                                   
+					<a href="javascript:EP_removeTracks('ep_player1', [0, 1, 2])">remove tracks</a>
+    			</td>
+    		</tr>
+    		<tr align="left" valign="top">
+    			<td>Information:</td>
+    			<td> 
+					<a href="javascript:alert(EP_getCurrentTrackData('ep_player1').location);">get current track data</a> /
+					<a href="javascript:alert(EP_getTrackData('ep_player1', 1).title);">get track data (by index)</a>
+    			</td>
+    		</tr>    		    		   		
+    	</table>
+                                       
+	</center>                                               
+	</body>
+</html>

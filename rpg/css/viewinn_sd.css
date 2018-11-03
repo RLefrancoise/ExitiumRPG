@@ -1,0 +1,81 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/inn/sd/background.jpg");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+	
+	font-family:Stonehenge;
+}
+
+#inn {
+	width:654px;
+	margin:auto;
+	margin-top:2%;
+	margin-right:2%;
+}
+
+#main_menu {
+	background-image: url("http://localhost/forumH2/images/rpg/inn/sd/main_menu_bg.gif");
+	background-repeat : no-repeat;
+	width:654px;
+	height:590px;
+	margin:auto;
+}
+
+#main_menu a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display:inline-block;
+	width:594px;
+	height:162px;
+	vertical-align:center;
+}
+
+#main_menu a p {
+	margin:auto;
+	margin-top:22px;
+	font-size:20px;
+}
+
+#welcome {
+	width:522px;
+	height:114px;
+	margin:auto;
+}
+
+#rest_link:link, #rest_link:visited  {
+	background-image: url("http://localhost/forumH2/images/rpg/inn/sd/button.gif");
+	background-repeat : no-repeat;
+}
+
+#rest_link:hover {
+	background-image: url("http://localhost/forumH2/images/rpg/inn/sd/button2.gif");
+	background-repeat : no-repeat;
+}
+
+#sleep_link:link, #sleep_link:visited  {
+	background-image: url("http://localhost/forumH2/images/rpg/inn/sd/button.gif");
+	background-repeat : no-repeat;
+}
+
+#sleep_link:hover {
+	background-image: url("http://localhost/forumH2/images/rpg/inn/sd/button2.gif");
+	background-repeat : no-repeat;
+}
+
+#exit_link:link, #exit_link:visited  {
+	background-image: url("http://localhost/forumH2/images/rpg/inn/sd/exit.gif");
+	background-repeat : no-repeat;
+	display:inline-block;
+	width:366px;
+	height:161px;
+}
+
+#exit_link:hover {
+	background-image: url("http://localhost/forumH2/images/rpg/inn/sd/exit2.gif");
+	background-repeat : no-repeat;
+	display:inline-block;
+	width:366px;
+	height:161px;
+}

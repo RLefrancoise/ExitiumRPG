@@ -1,0 +1,72 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/search/search_bg2.png");
+	background-repeat: no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+	overflow:hidden;
+}
+
+body #search_table {
+	width:881px;
+	height:802px;
+	margin:auto;
+}
+
+#search_input {
+	font-size:20px;
+	height:29px;
+}
+
+
+#clan_list {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/search/list_bg.png");
+	background-repeat: no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+	overflow:hidden;
+	width:807px;
+	height:505px;
+	margin:auto;
+	margin-left:25px;
+	border:none;
+}
+
+#clan_list_display {
+	width:807px;
+	height:455px;
+	color:white;
+	overflow:hidden;
+}
+
+.clan_link:link, .clan_link:visited{
+	color:white;
+	text-decoration:none;
+}
+
+.clan_link:hover{
+	color:white;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+#close_button:link, #close_button:visited{
+	display:inline-block;
+	width:59px;
+	height:60px;
+	background-image: url("http://localhost/forumH2/images/rpg/clans/search/buttons/close_button.png");
+	background-repeat : no-repeat;
+}
+
+#close_button:hover{
+	display:inline-block;
+	width:59px;
+	height:60px;
+	background-image: url("http://localhost/forumH2/images/rpg/clans/search/buttons/close_button2.png");
+	background-repeat : no-repeat;
+}

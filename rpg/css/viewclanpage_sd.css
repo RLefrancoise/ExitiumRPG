@@ -1,0 +1,274 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/background_sd.jpg");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+}
+
+#close_button:link, #close_button:visited {
+	display:inline-block;
+	position:relative;
+	top:-5px;
+	left:340px;
+	
+	width:26px;
+	height:26px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/buttons/Fermer.gif");
+	background-repeat : no-repeat;
+}
+
+#close_button:hover {
+	display:inline-block;
+	position:relative;
+	top:-5px;
+	left:340px;
+	
+	width:26px;
+	height:26px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/buttons/FermerCLIC.gif");
+	background-repeat : no-repeat;
+}
+
+
+
+#clan_info {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/windows/Infos.gif");
+	background-repeat : no-repeat;
+	width:304px;
+	height:160px;
+	margin:auto;
+	
+	color:white;
+	font-size:18px;
+}
+
+#clan_leader_text {
+	position:relative;
+	top:30px;
+	left:80px;
+}
+
+#clan_level_text {
+	position:relative;
+	top:31px;
+	left:100px;
+}
+
+#clan_members_text {
+	position:relative;
+	top:32px;
+	left:115px;
+}
+
+#clan_members {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/windows/members_bg.gif");
+	background-repeat : no-repeat;
+	width:304px;
+	height:575px;
+	margin:auto;
+	
+	color:white;
+}
+
+#join_button:link, #join_button:visited {
+	display:block;
+	width:188px;
+	height:94px;
+	margin:auto;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/buttons/RejoindreClan.gif");
+	background-repeat : no-repeat;
+}
+
+#join_button:hover {
+	display:block;
+	width:188px;
+	height:94px;
+	margin:auto;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/buttons/RejoindreClanCLIC.gif");
+	background-repeat : no-repeat;
+}
+
+
+#quit_button:link, #quit_button:visited {
+	display:block;
+	width:188px;
+	height:94px;
+	margin:auto;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/buttons/QuitterClan.gif");
+	background-repeat : no-repeat;
+}
+
+#quit_button:hover {
+	display:block;
+	width:188px;
+	height:94px;
+	margin:auto;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/buttons/QuitterClanCLIC.gif");
+	background-repeat : no-repeat;
+}
+
+#delete_button:link, #delete_button:visited {
+	display:block;
+	width:188px;
+	height:94px;
+	margin:auto;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/buttons/SupprimerClan.gif");
+	background-repeat : no-repeat;
+}
+
+#delete_button:hover {
+	display:block;
+	width:188px;
+	height:94px;
+	margin:auto;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/buttons/SupprimerClanCLIC.gif");
+	background-repeat : no-repeat;
+}
+
+
+
+
+#central_info {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/windows/central_info_bg.gif");
+	background-repeat : no-repeat;
+	width:732px;
+	height:870px;
+	/*margin:auto;*/
+	color:white;
+}
+
+#clan_name {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/windows/clan_name_bg.gif");
+	background-repeat : no-repeat;
+	width:586px;
+	height:81px;
+	/*margin:auto;*/
+	margin-bottom:10px;
+	margin-top:-25px;
+	text-align:center;
+	font-size:20px;
+}
+
+#clan_name p {
+	line-height:81px;
+	display:inline;
+	margin:0;
+}
+
+#clan_image {
+	/*background-color:black;*/
+	width:600px;
+	height:400px;
+	background-repeat:no-repeat;
+	background-size : 100% 100%;
+}
+
+#desc_div {
+	width:600px;
+	height:347px;
+	/*margin:auto;*/
+	padding:10 10 10 10;
+	margin-top:10px;
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/windows/clan_desc_bg.gif");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	vertical-align:middle;
+}
+
+#clan_description {
+	display:inline;
+	/*background-image: url("http://localhost/forumH2/images/rpg/clans/see/windows/clan_desc_bg.png");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;*/
+	background:none;
+	width:580px;
+	height:327px;
+	/*margin:auto;*/
+	/*margin-left:8px;*/
+	margin-top:8px;
+	resize:none;
+	border:none;
+	color:white;
+	font-size:20px;
+}
+
+
+
+#chat {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/see/sd/windows/chatbox_bg.gif");
+	background-repeat : no-repeat;
+	width:304px;
+	height:845px;
+	margin:auto;
+}
+
+#messages_div {
+	color:white;
+	text-align:left;
+}
+
+
+
+#menu {
+	position:absolute;
+	z-index:200;
+	background-color:rgb(100,0,130);
+	visibility:hidden;
+	border:2px outset white;
+	margin:0;
+	padding:0;
+}
+
+#menu ul {
+	list-style-type:none;
+	padding:2px;
+	margin:0;
+}
+
+#menu ul li{
+	padding:0;
+	margin:0;
+	color:white;
+}
+
+#menu ul li a:link, #menu ul li a:visited {
+	text-decoration:none;
+	color:white;
+}
+
+#menu ul li a:hover {
+	text-decoration:none;
+	color:rgb(192,0,222);
+}
+
+#pi_block {
+	width:705px;
+	height:654px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-left:-352px;
+	margin-top:-327px;
+	z-index:11;
+	display:none;
+	
+	background-image : url("http://localhost/forumH2/images/rpg/clans/see/pi/background.png");
+	background-repeat : no-repeat;
+}
+
+#pi_close {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:15px;
+	left:640px;
+}

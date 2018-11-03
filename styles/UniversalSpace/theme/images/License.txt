@@ -1,0 +1,109 @@
+******************************************************************************************************
+Copyright Information Created on: 01-09-2009
+Updated phpbb 3.0.11 on: 2012-10-05
+******************************************************************************************************
+
+Site Owner: LEOITALIA
+Contact Email: leoitalia@oraweb.it
+Website: http://leoitalia.oraweb.it
+
+Style ID: UniversalSpace
+Style Version: 1.0.7
+phpBB version: 3.0.11 
+
+Copyright © 2009 - 2012 LEOITALIA
+
+Creative Commons Attribution-Noncommercial-No Derivative Works 2.5 Italy 
+http://creativecommons.org/licenses/by-nc-nd/2.5/it/deed.en_US 
+****************************************************************************************************** 
+
+/*  Free Styles  */
+------------------------------------------------------------------------------------------------------
+
+- You may alter and edit this style for your own personal use only. 
+
+- You may not redistribute this style in part or in whole, modified or original
+
+  without the prior written consent of LEOITALIA.
+
+- All the information of credit and logo the "OW" must remain intact and they cannot be modified
+
+  or removed for some reason, without the estimate written consent of LEOITALIA.
+
+- leoitalia@oraweb.it - www.oraweb.it - leoitalia.oraweb.it
+
+- You may not use this work for commercial purposes.
+
+/*  Logo OW policy */
+
+- Can replace the logo image OW spaceship
+
+  only with other logos OW available
+
+------------------------------------------------------------------------------------------------------
+
+- We are a group of persons who do not take to benefits from the property and activity phpBB
+
+  the intense activities come carried out for hobby without some fine of lucro and distributed free
+
+  of charge. Oneself appreciate our topics and wants to help, contributing us to motivate
+
+  in continuing to make better our job and you want to make a donation of any amount. here found ours
+
+  account paypal, open index.htm
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+******************************************************************************************************
+Copyright Information Created on: 01-09-2009
+Updated phpbb 3.0.11 on: 2012-10-05
+******************************************************************************************************
+
+Site Owner: LEOITALIA
+Contact Email: leoitalia@oraweb.it
+Website: http://leoitalia.oraweb.it
+
+Style ID: UniversalSpace
+Style Version: 1.0.7
+phpBB version: 3.0.11 
+
+Copyright © 2009 - 2012 LEOITALIA
+
+Creative Commons Attribuzione-Non commerciale-Non opere derivate 2.5 Italia License 
+http://creativecommons.org/licenses/by-nc-nd/2.5/it
+****************************************************************************************************** 
+
+/*  Free Styles  */
+------------------------------------------------------------------------------------------------------
+
+- Potete alterare e pubblicare questo stile per il vostro proprio uso personale soltanto. 
+
+- Non è possibile ridistribuire questo stile in parte o in tutto, modificato o originale
+
+  senza il preventivo consenso scritto di LEOITALIA.
+
+- Tutte le informazioni di credito e i loghi "OW" devono rimanere intatte e non possono essere modificate
+
+  o rimosse per alcun motivo, senza il preventivo consenso scritto di LEOITALIA.
+
+- leoitalia@oraweb.it - www.oraweb.it - leoitalia.oraweb.it
+
+- Non Potete usare quest'opera per fini commerciali.
+
+/*  Logo OW policy */
+
+- E' possibile sostituire l'immagine logo OW astronave
+
+  solo con gli altri loghi OW messi a disposizione.
+
+------------------------------------------------------------------------------------------------------
+
+- Siamo un gruppo di persone che non prendono benefici dalla proprietà e attività phpBB
+
+  i lavori vengono svolti per hobby senza alcun fine di lucro e distribuiti gratuitamente.
+
+  Sè gradite i nostri temi e volete aiutarci, contribuendo a motivare nel continuare a fare meglio
+
+  il nostro lavoro e volete fare una donazione di qualsiasi importo. qui trovate il nostro
+
+  conto paypal, apri index.htm

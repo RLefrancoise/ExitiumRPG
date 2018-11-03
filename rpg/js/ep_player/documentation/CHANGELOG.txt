@@ -1,0 +1,82 @@
+2.0.054
+First public beta
+
+2.0.055
+- ARGB colors (0xAARRGGBB) are now supported in the XML skinning language
+- cyrillic version of the verdana font added to the nobius_mk2 skin folder
+- fixed: a new loaded song did not start playing from the begin sometimes
+
+2.0.056
+- changed skin button id LINK to JSCALL (please update your skins)
+- fixed animation frame count bug
+- added JS functions:
+	EP_setShuffle(v);
+	EP_setRepeat(v);
+	EP_setAutoPlay(v);
+	
+- fixed autoplay when playlst was loaded with JSAPI
+
+2.0.057
+- shuffle parameter fixed
+- playlistxml parameter fixed
+- animation elements now rewind on play in stead of continue from last position
+- debug mode parameter added. If enabled, the player will report errors like missing files. (in browser only)
+- fixed playlist disappearing randomly when resizing
+- playlist now scrolls to playing item (when mouse is outside the playlist)
+- cyrillic font fixed in nobius skin
+- two new skins added: basic black & basic silver  
+- object-tag implementation example added (without using swfobject.js)
+- EP_setPlaylist function now has a 'start' parameter. (tells the player to start playing or not)
+- album images are now resized with anti-aliasing
+- new JS API examples added
+
+2.0.058
+- skinning documentation now online.
+- fixed: some MP3's did not start playing in Safari and Chrome.
+- added single line 'creator - title' display in the playlist items. (CREATORNAME_SONGNAME)
+
+
+2.0.059
+- first official release
+- new version of the nobius skin
+- textfield INFO is now depreciated, please use CUR_CREATORNAME_SONGNAME / CUR_CREATORNAME / CUR_SONGNAME
+- documentation updated
+
+2.0.060
+- fixed: CUR_CREATORNAME_SONGNAME creator & song text was in the wrong order.
+- fixed: now catching HTTP_STATUS errors.
+- experimental mousewheel fix (scroll playlist instead of page) can be enabled with parameter: mousewheelfix = true;
+- added 2 skins micro black and micro silver
+
+2.0.061
+- added track display element (beta) and two new free skins!
+
+2.0.062
+- fixed: EP_onPause callback
+- fixed: transport bar now works better for audio streams.
+- added 'maxmemory' parameter as fix for audio streams memory usage, please see documentation for more info.
+- fixed: width settings for track_display element
+
+2.0.063
+- fixed: some URLS not recognized by registration check
+- fixed: scrollbox element not updating scrollbar sometimes
+- improved track_display resizing and width settings
+- note: the track_display waveform might show incorrect data due to a bug in older versions of Flash Player. 
+  This has been fixed in the latest version of Flash Player.
+  
+2.0.064
+- fixed: EP_removeTracks JS function removed too many tracks in some cases.
+
+2.0.065
+- fixed: playlist <duration> tag now working again.
+- fixed: scope and fft now display correct stereo data
+- added: CUR_DURATION textfield that displays the duration of the current playing track
+- added: when dragging the transport bar the time display will show the current position of the handle
+- added: playlist documentation
+
+2.0.066
+- fixed: multiple players on one page now show correct visualization. 
+- added: example how to use multiple players on one page (auto stop other players)
+
+2.0.067
+- fixed: song starts playing from the playback position of the previous song.

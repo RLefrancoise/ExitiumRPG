@@ -1,0 +1,8 @@
+<div style="display:inline-block;margin-left:5px;text-align:left">
+	<p onmouseover="tooltip.show(this)" onmouseout="tooltip.hide(this)" title="Augmente les dégâts physiques et la précision."><a class="stat_link" href="javascript:give_stat_point('atk')">Attaque : {USER_ATTACK}</a></p>
+	<p onmouseover="tooltip.show(this)" onmouseout="tooltip.hide(this)" title="Augmente la résistance aux dégâts, l'esquive critique et les points de vie."><a class="stat_link" href="javascript:give_stat_point('def')">Défense : {USER_DEFENSE}</a></p>
+	<p onmouseover="tooltip.show(this)" onmouseout="tooltip.hide(this)" title="Augmente l'esquive, les critiques et un peu la précision et la précision magique."><a class="stat_link" href="javascript:give_stat_point('spd')">Vitesse : {USER_SPEED}</a></p>
+	<p onmouseover="tooltip.show(this)" onmouseout="tooltip.hide(this)" title="Augmente les dégâts magiques, la précision magique et la puissance des skills."><a class="stat_link" href="javascript:give_stat_point('flux')">Flux : {USER_FLUX}</a></p>
+	<p onmouseover="tooltip.show(this)" onmouseout="tooltip.hide(this)" title="Augmente la résistance aux dégâts magiques, la puissance des soins, l'esquive critique et les points de flux."><a class="stat_link" href="javascript:give_stat_point('res')">Résistance : {USER_RESISTANCE}</a></p>
+	<p onmouseover="tooltip.show(this)" onmouseout="tooltip.hide(this)" title="Le nombre de points restants à attribuer. Cliquer sur une statistique pour attribuer un point.">Points : {USER_POINTS}</p>
+</div>

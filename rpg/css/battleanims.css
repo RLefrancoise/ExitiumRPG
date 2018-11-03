@@ -1,0 +1,86 @@
+.atkSimple {
+	width:192px;
+	height:192px;
+	animation: atkSimple1 0.5s steps(5,start) 0 1, atkSimple2 0.3s steps(3,start) 0.5s 1;
+	-webkit-animation: atkSimple1 0.5s steps(5,start) 0 1, atkSimple2 0.3s steps(3,start) 0.5s 1;
+	background: url(http://localhost/forumH2/images/rpg/battle/animations/Atk-Simple.png) 0 0 no-repeat;
+	margin:auto;
+}
+
+@keyframes atkSimple1 {  
+  0% {background-position: 0 0; } 
+  100% {background-position: -960px 0; } /* Must be full height of sprite or skipping will happen.*/
+}
+
+@-webkit-keyframes atkSimple1 {  /* Chrome and safari */
+ 0% {background-position: 0 0; } 
+  100% {background-position: -960px 0; } /* Must be full height of sprite or skipping will happen.*/
+}
+
+@keyframes atkSimple2 {  
+  0% {background-position: 0 -192px; } 
+  100% {background-position: -960px 0; } /* Must be full height of sprite or skipping will happen.*/
+}
+
+@-webkit-keyframes atkSimple2 {  /* Chrome and safari */
+ 0% {background-position: 0 -192px; } 
+  100% {background-position: -576px -192px; } /* Must be full height of sprite or skipping will happen.*/
+}
+
+
+.atkFeu {
+	width:192px;
+	height:192px;
+	animation: 			atkFeu1 0.5s steps(5,start),
+						atkFeu2 0.5s steps(5,start) 0.5s,
+						atkFeu3 0.5s steps(5,start) 1s,
+						atkFeu4 0.5s steps(5,start) 1.5s;
+						
+	-webkit-animation: 	atkFeu1 0.5s steps(5,start),
+						atkFeu2 0.5s steps(5,start) 0.5s,
+						atkFeu3 0.5s steps(5,start) 1s,
+						atkFeu4 0.5s steps(5,start) 1.5s;
+						
+	background: url(http://localhost/forumH2/images/rpg/battle/animations/Atk-Feu.png) 0 0 no-repeat;
+	margin:auto;
+}
+
+@keyframes atkFeu1 {  
+  0% {background-position: 0 -768px; } 
+  100% {background-position: -960px -768px; } 
+}
+
+@-webkit-keyframes atkFeu1 {  /* Chrome and safari */
+ 0% {background-position: 0 -768px; } 
+  100% {background-position: -960px -768px; } 
+}
+
+@keyframes atkFeu2 {  
+  0% {background-position: 0 -960px; } 
+  100% {background-position: -960px -960px; } 
+}
+
+@-webkit-keyframes atkFeu2 {  /* Chrome and safari */
+ 0% {background-position: 0 -960px; } 
+  100% {background-position: -960px -960px; } 
+}
+
+@keyframes atkFeu3 {  
+  0% {background-position: 0 -1152px; } 
+  100% {background-position: -960px -1152px; } 
+}
+
+@-webkit-keyframes atkFeu3 {  /* Chrome and safari */
+ 0% {background-position: 0 -1152px; } 
+  100% {background-position: -960px -1152px; } 
+}
+
+@keyframes atkFeu4 {  
+  0% {background-position: 0 -1344px; } 
+  100% {background-position: -960px -1344px; } 
+}
+
+@-webkit-keyframes atkFeu4 {  /* Chrome and safari */
+ 0% {background-position: 0 -1344px; } 
+  100% {background-position: -960px -1344px; } 
+}

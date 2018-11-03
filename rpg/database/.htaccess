@@ -1,0 +1,14 @@
+# -FrontPage-
+
+Options -Indexes
+
+<Limit GET POST PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+
+
+<Files *>
+Order Allow,Deny
+Deny from All
+</Files>

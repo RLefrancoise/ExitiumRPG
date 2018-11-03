@@ -1,0 +1,143 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/background.png");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+}
+
+#main_menu {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/BGmenus.png");
+	background-repeat : no-repeat;
+	width:516px;
+	height:702px;
+	margin:auto;
+	float:right;
+	margin-top:1%;
+	margin-right:1%;
+}
+
+#main_menu_bg {
+	
+}
+
+#title {
+	width:420px;
+	height:100px;
+	margin:auto;
+	margin-top:10px;
+}
+
+#create_button_disabled {
+	display:inline-block;
+	width:212px;
+	height:212px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/create_button.png");
+	background-repeat : no-repeat;
+	opacity:0.5;
+	filter:alpha(opacity=50); /* For <= IE8*/
+}
+
+#create_button_enabled:link, #create_button_enabled:visited {
+	display:inline-block;
+	width:212px;
+	height:212px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/create_button.png");
+	background-repeat : no-repeat;
+}
+
+#create_button_enabled:hover {
+	display:inline-block;
+	width:212px;
+	height:212px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/create_button2.png");
+	background-repeat : no-repeat;
+}
+
+#search_button:link, #search_button:visited {
+	display:inline-block;
+	width:212px;
+	height:212px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/search_button.png");
+	background-repeat : no-repeat;
+}
+
+#search_button:hover {
+	display:inline-block;
+	width:212px;
+	height:212px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/search_button2.png");
+	background-repeat : no-repeat;
+}
+
+
+#see_button_disabled {
+	display:inline-block;
+	width:212px;
+	height:212px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/see_button.png");
+	background-repeat : no-repeat;
+	opacity:0.5;
+	filter:alpha(opacity=50); /* For <= IE8*/
+}
+
+#see_button_enabled:link, #see_button_enabled:visited {
+	display:inline-block;
+	width:212px;
+	height:212px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/see_button.png");
+	background-repeat : no-repeat;
+}
+
+#see_button_enabled:hover {
+	display:inline-block;
+	width:212px;
+	height:212px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/see_button2.png");
+	background-repeat : no-repeat;
+}
+
+#exit_button:link, #exit_button:visited {
+	display:inline-block;
+	width:277px;
+	height:91px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/exit_button.png");
+	background-repeat : no-repeat;
+}
+
+#exit_button:hover {
+	display:inline-block;
+	width:277px;
+	height:91px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/accueil/buttons/exit_button2.png");
+	background-repeat : no-repeat;
+}
+
+#iframe{
+	position:absolute;
+	display:inline-block;
+	border:none;
+	visibility:hidden;
+	overflow:hidden;
+}
+
+
+
+#message {
+	/*background-image: url("http://localhost/forumH2/images/rpg/blackmarket/messages/AchatOK.png");*/
+	width:385px;
+	height:155px;
+	position:fixed;
+	top:2%;
+	left:1%;
+	visibility:hidden;
+}

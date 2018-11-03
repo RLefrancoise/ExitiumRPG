@@ -1,0 +1,99 @@
+
+Installing
+---------------------------
+
+- Upload the "UniversalSpace" folder to your styles directory.
+
+- Visit your ACP > Styles section and install the style
+
+
+Editing
+---------------------------
+
+Check the folder "Extras" forum_title.png find the file and replace the written UniversalSpace 
+
+with the title of your forum, if you want to use the same color and character ( EDCF3D - Rockwell ) 
+
+and uses the written UniversalSpace as a template for reference.
+
+If you have problems please contact us for help or visit http://leoitalia.oraweb.it - http://www.oraweb.it
+
+
+Extras
+---------------------------
+
+the folder "Extras" include smiley faces and icons of defoult modified for use with transparencies
+
+is strongly recommended to replace them.
+
+
+Logos OW alternative
+---------------------------
+Can replace the logo image OW spaceship
+
+only with other logos OW available
+
+
+To use the Home button
+---------------------------
+
+To use the HOME button in the upper left 
+overall_header.html open the file, search and find the line 
+
+ <a href="#"><img src="{T_THEME_PATH}/images/icon_mini_faq.gif"
+ width="13" height="11" alt="*" /> HOME</a>&nbsp;
+
+replace the # sign with your full link example: http://www.oraweb.it/
+
+///////////////////////////////////////////// IT ///////////////////////////////////////////////////////////
+
+Installing
+---------------------------
+
+- Carica la cartella "UniversalSpace" nella tua cartella styles.
+
+- Vai al tuo ACP > Stili sezione e installa lo stile 
+
+
+Editing
+---------------------------
+
+Controllare la cartella "Extras" trova il file forum_title.png e sostituisci la scritta UniversalSpace
+
+con il titolo del tuo forum, sè volete usare lo stesso colore e carattere ( EDCF3D - rockwell )
+
+e utilizza la scritta UniversalSpace come dima di riferimento.
+
+Sè hai problemi contattaci o visita http://leoitalia.oraweb.it - http://www.oraweb.it per aiuto
+
+
+Extras
+---------------------------
+
+la cartella "Extras" include smilie e icons di defoult modificati per l'uso con le trasparenze
+
+si consiglia vivamente di sostituirle.
+
+
+Loghi OW alternativi
+---------------------------
+E' possibile sostituire l'immagine logo OW astronave
+
+solo con gli altri loghi OW messi a disposizione.
+
+
+To use the Home button
+---------------------------
+
+Per utilizzare il tasto HOME in alto a sinistra
+apri il file overall_header.html , cerca e trova la riga
+
+ <a href="#"><img src="{T_THEME_PATH}/images/icon_mini_faq.gif"
+ width="13" height="11" alt="*" /> HOME</a>&nbsp;
+
+sostituire il segno # con il vostro link completo esempio: http://www.oraweb.it/
+
+
+
+
+

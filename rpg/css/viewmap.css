@@ -1,0 +1,651 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/map/background.png");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+}
+
+#main_div{
+	position:fixed;
+	width:905px;
+	height:696px;
+	
+	top:50%;
+	left:50%;
+	margin-left:-452px;
+	margin-top:-348px;
+}
+
+#map {
+	position:absolute;
+	display:inline-block;
+	top:0px;
+	left:0px;
+	width: 905px;
+	height: 696px;
+	margin:auto;
+}
+
+#castle {
+	position:absolute;
+	left:695px;
+	top:145px;
+	margin-left:-5px;
+	margin-top:-5px;
+}
+
+#imperial_city {
+	position:absolute;
+	left:788px;
+	top:305px;
+	margin-left:-5px;
+	margin-top:-5px;
+}
+
+#esperia {
+	position:absolute;
+	left:726px;
+	top:460px;
+	margin-left:-5px;
+	margin-top:-5px;
+}
+
+#desert_town {
+	position:absolute;
+	left:472px;
+	top:75px;
+	margin-left:-5px;
+	margin-top:-5px;
+}
+
+#forest_town {
+	position:absolute;
+	left:615px;
+	top:352px;
+	margin-left:-5px;
+	margin-top:-5px;
+}
+
+#ice_town {
+	position:absolute;
+	left:612px;
+	top:646px;
+	margin-left:-5px;
+	margin-top:-5px;
+}
+
+#east_coast:link, #east_coast:visited{
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/east_coast.png");
+	background-repeat : no-repeat;
+	width:176px;
+	height:355px;
+	
+	left:729px;
+	top:229px;
+}
+
+#east_coast:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/east_coast_hl.png");
+	background-repeat : no-repeat;
+	width:176px;
+	height:355px;
+	
+	left:729px;
+	top:229px;
+}
+
+#white_desert:link, #white_desert:visited{
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/white_desert.png");
+	background-repeat : no-repeat;
+	width:314px;
+	height:202px;
+	
+	left:349px;
+	top:0px;
+}
+
+#white_desert:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/white_desert_hl.png");
+	background-repeat : no-repeat;
+	width:314px;
+	height:202px;
+	
+	left:349px;
+	top:0px;
+}
+
+#dry_desert:link, #dry_desert:visited{
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/dry_desert.png");
+	background-repeat : no-repeat;
+	width:279px;
+	height:191px;
+	
+	left:409px;
+	top:504px;
+}
+
+#dry_desert:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/dry_desert_hl.png");
+	background-repeat : no-repeat;
+	width:279px;
+	height:191px;
+	
+	left:409px;
+	top:504px;
+}
+
+#termorr_mines {
+	position:absolute;
+	left:581px;
+	top:244px;
+	margin-left:-5px;
+	margin-top:-5px;
+}
+
+.area_name:link, .area_name:visited, .area_name:hover{
+	font-family:"Ace Futurism";
+	color: red;
+	text-decoration:none;
+	font-size:28px;
+	/*font-weight:bold;*/
+}
+
+
+
+
+#east_coast_zoom {
+	/*visibility:hidden;*/
+	display:none;
+	z-index:3;
+	position:absolute;
+	
+	border:2px solid white;
+	
+	text-align:center;
+}
+
+#east_coast_part1:link, #east_coast_part1:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/east_coast_part1.png");
+	background-repeat : no-repeat;
+	width:235px;
+	height:303px;
+	line-height:303px;
+	vertical-align:middle;
+	left:29px;
+	top:25px;
+}
+
+#east_coast_part1:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/east_coast_part1_hl.png");
+	background-repeat : no-repeat;
+	width:235px;
+	height:303px;
+	line-height:303px;
+	vertical-align:middle;
+	left:29px;
+	top:25px;
+}
+
+#east_coast_part2:link, #east_coast_part2:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/east_coast_part2.png");
+	background-repeat : no-repeat;
+	width:179px;
+	height:246px;
+	/*line-height:243px;*/
+	vertical-align:middle;
+	left:75px;
+	top:263px;
+	
+	z-index:5;
+}
+
+#east_coast_part2:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/east_coast_part2_hl.png");
+	background-repeat : no-repeat;
+	width:179px;
+	height:246px;
+	/*line-height:243px;*/
+	vertical-align:middle;
+	left:75px;
+	top:263px;
+	
+	z-index:5;
+}
+
+#east_coast_part3:link, #east_coast_part3:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/east_coast_part3.png");
+	background-repeat : no-repeat;
+	width:201px;
+	height:358px;
+	/*line-height:354px;*/
+	vertical-align:middle;
+	left:148px;
+	top:240px;
+}
+
+#east_coast_part3:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/east_coast_part3_hl.png");
+	background-repeat : no-repeat;
+	width:201px;
+	height:358px;
+	/*line-height:354px;*/
+	vertical-align:middle;
+	left:148px;
+	top:240px;
+}
+
+#east_coast_part4:link, #east_coast_part4:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/east_coast_part4.png");
+	background-repeat : no-repeat;
+	width:154px;
+	height:245px;
+	line-height:244px;
+	vertical-align:middle;
+	left:102px;
+	top:465px;
+}
+
+#east_coast_part4:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/east_coast_part4_hl.png");
+	background-repeat : no-repeat;
+	width:154px;
+	height:245px;
+	line-height:244px;
+	vertical-align:middle;
+	left:102px;
+	top:465px;
+}
+
+
+#white_desert_zoom {
+	/*visibility:hidden;*/
+	display:none;
+	z-index:3;
+	position:absolute;
+	
+	border:2px solid white;
+	
+	text-align:center;
+}
+
+#white_desert_part1:link, #white_desert_part1:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/white_desert_part1.png");
+	background-repeat : no-repeat;
+	width:226px;
+	height:268px;
+	line-height:268px;
+	vertical-align:middle;
+	left:3px;
+	top:20px;
+}
+
+#white_desert_part1:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/white_desert_part1_hl.png");
+	background-repeat : no-repeat;
+	width:226px;
+	height:268px;
+	line-height:268px;
+	vertical-align:middle;
+	left:3px;
+	top:20px;
+}
+
+#white_desert_part2:link, #white_desert_part2:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/white_desert_part2.png");
+	background-repeat : no-repeat;
+	width:199px;
+	height:199px;
+	/*line-height:210px;*/
+	vertical-align:middle;
+	left:177px;
+	top:108px;
+	
+	z-index:5;
+}
+
+#white_desert_part2:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/white_desert_part2_hl.png");
+	background-repeat : no-repeat;
+	width:199px;
+	height:199px;
+	/*line-height:210px;*/
+	vertical-align:middle;
+	left:177px;
+	top:108px;
+	
+	z-index:5;
+}
+
+#white_desert_part3:link, #white_desert_part3:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/white_desert_part3.png");
+	background-repeat : no-repeat;
+	width:239px;
+	height:219px;
+	/*line-height:219px;*/
+	vertical-align:middle;
+	left:308px;
+	top:95px;
+}
+
+#white_desert_part3:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/white_desert_part3_hl.png");
+	background-repeat : no-repeat;
+	width:239px;
+	height:219px;
+	/*line-height:219px;*/
+	vertical-align:middle;
+	left:308px;
+	top:95px;
+}
+
+#white_desert_part4:link, #white_desert_part4:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/white_desert_part4.png");
+	background-repeat : no-repeat;
+	width:252px;
+	height:136px;
+	/*line-height:140px;*/
+	vertical-align:middle;
+	left:249px;
+	top:273px;
+}
+
+#white_desert_part4:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/white_desert_part4_hl.png");
+	background-repeat : no-repeat;
+	width:252px;
+	height:136px;
+	/*line-height:140px;*/
+	vertical-align:middle;
+	left:249px;
+	top:273px;
+}
+
+#dry_desert_zoom {
+	/*visibility:hidden;*/
+	display:none;
+	z-index:3;
+	position:absolute;
+	
+	border:2px solid white;
+	
+	text-align:center;
+}
+
+#dry_desert_part1:link, #dry_desert_part1:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/dry_desert_part1.png");
+	background-repeat : no-repeat;
+	width:195px;
+	height:278px;
+	/*line-height:278px;*/
+	vertical-align:middle;
+	left:5px;
+	top:25px;
+	
+	z-index:5;
+}
+
+#dry_desert_part1:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/dry_desert_part1_hl.png");
+	background-repeat : no-repeat;
+	width:195px;
+	height:278px;
+	/*line-height:278px;*/
+	vertical-align:middle;
+	left:5px;
+	top:25px;
+	
+	z-index:5;
+}
+
+#dry_desert_part2:link, #dry_desert_part2:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/dry_desert_part2.png");
+	background-repeat : no-repeat;
+	width:200px;
+	height:283px;
+	line-height:283px;
+	vertical-align:middle;
+	left:163px;
+	top:65px;
+}
+
+#dry_desert_part2:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/dry_desert_part2_hl.png");
+	background-repeat : no-repeat;
+	width:200px;
+	height:283px;
+	line-height:283px;
+	vertical-align:middle;
+	left:163px;
+	top:65px;
+}
+
+#dry_desert_part3:link, #dry_desert_part3:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/dry_desert_part3.png");
+	background-repeat : no-repeat;
+	width:215px;
+	height:179px;
+	/*line-height:180px;*/
+	vertical-align:middle;
+	left:335px;
+	top:201px;
+}
+
+#dry_desert_part3:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/dry_desert_part3_hl.png");
+	background-repeat : no-repeat;
+	width:215px;
+	height:179px;
+	/*line-height:180px;*/
+	vertical-align:middle;
+	left:335px;
+	top:201px;
+}
+
+#dry_desert_part4:link, #dry_desert_part4:visited {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/dry_desert_part4.png");
+	background-repeat : no-repeat;
+	width:152px;
+	height:138px;
+	/*line-height:142px;*/
+	vertical-align:middle;
+	left:406px;
+	top:186px;
+}
+
+#dry_desert_part4:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/dry_desert_part4_hl.png");
+	background-repeat : no-repeat;
+	width:152px;
+	height:138px;
+	/*line-height:142px;*/
+	vertical-align:middle;
+	left:406px;
+	top:186px;
+}
+
+#termorr_zoom {
+	/*visibility:hidden;*/
+	display:none;
+	z-index:3;
+	position:absolute;
+	
+	border:2px solid white;
+	
+	text-align:center;
+}
+
+#termorr_part1:link, #termorr_part1:visited {
+	position:absolute;
+	display:inline-block;
+	/*background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/termorr_part1_hl.png");
+	background-repeat : no-repeat;*/
+	width:476px;
+	height:276px;
+	line-height:276px;
+	vertical-align:middle;
+	left:0px;
+	top:492px;
+	
+	z-index:5;
+}
+
+#termorr_part1:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/termorr_part1_hl.png");
+	background-repeat : no-repeat;
+	width:476px;
+	height:276px;
+	line-height:276px;
+	vertical-align:middle;
+	left:0px;
+	top:492px;
+	
+	z-index:5;
+}
+
+#termorr_part2:link, #termorr_part2:visited {
+	position:absolute;
+	display:inline-block;
+	/*background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/termorr_part2_hl.png");
+	background-repeat : no-repeat;*/
+	width:381px;
+	height:389px;
+	line-height:389px;
+	vertical-align:middle;
+	left:367px;
+	top:369px;
+}
+
+#termorr_part2:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/termorr_part2_hl.png");
+	background-repeat : no-repeat;
+	width:381px;
+	height:389px;
+	line-height:389px;
+	vertical-align:middle;
+	left:367px;
+	top:369px;
+}
+
+#termorr_part3:link, #termorr_part3:visited {
+	position:absolute;
+	display:inline-block;
+	/*background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/termorr_part3_hl.png");
+	background-repeat : no-repeat;*/
+	width:482px;
+	height:492px;
+	line-height:492px;
+	vertical-align:middle;
+	left:16px;
+	top:38px;
+}
+
+#termorr_part3:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/termorr_part3_hl.png");
+	background-repeat : no-repeat;
+	width:482px;
+	height:492px;
+	line-height:492px;
+	vertical-align:middle;
+	left:16px;
+	top:38px;
+}
+
+#termorr_part4:link, #termorr_part4:visited {
+	position:absolute;
+	display:inline-block;
+	/*background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/termorr_part4_hl.png");
+	background-repeat : no-repeat;*/
+	width:621px;
+	height:377px;
+	line-height:377px;
+	vertical-align:middle;
+	left:115px;
+	top:24px;
+}
+
+#termorr_part4:hover {
+	position:absolute;
+	display:inline-block;
+	background-image:url("http://localhost/forumH2/images/rpg/map/areas/zoom/termorr_part4_hl.png");
+	background-repeat : no-repeat;
+	width:621px;
+	height:377px;
+	line-height:377px;
+	vertical-align:middle;
+	left:115px;
+	top:24px;
+}
+
+
+#back {
+	color:white;
+	position:fixed;
+	top:2%;
+	left:1%;
+}

@@ -1,0 +1,82 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/clans/create/create_bg.png");
+	background-repeat: no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+	overflow:hidden;
+}
+
+body #create_table {
+	width:768px;
+	height:860px;
+	margin:auto;
+}
+
+#name_input {
+	margin-top : 50px;
+	margin-bottom: 80px;
+}
+
+#upload_button:link, #upload_button:visited{
+	display:inline-block;
+	width:115px;
+	height:44px;
+	background-image: url("http://localhost/forumH2/images/rpg/clans/create/buttons/open_image.png");
+	background-repeat : no-repeat;
+}
+
+#upload_button:hover{
+	display:inline-block;
+	width:115px;
+	height:44px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/create/buttons/open_image.png");
+	background-repeat : no-repeat;
+}
+
+#image_upload_status {
+	margin-top:30px;
+	margin-bottom:60px;
+}
+
+#clan_text {
+	color:white;
+	background:none;
+	background-image: url("http://localhost/forumH2/images/rpg/clans/create/textarea_bg2.png");
+	background-repeat : no-repeat;
+	border:none;
+	resize:none;
+}
+
+#create_button:link, #create_button:visited{
+	display:inline-block;
+	width:244px;
+	height:104px;
+	background-image: url("http://localhost/forumH2/images/rpg/clans/create/buttons/create_button.png");
+	background-repeat : no-repeat;
+}
+
+#create_button:hover{
+	display:inline-block;
+	width:244px;
+	height:104px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/clans/create/buttons/create_button2.png");
+	background-repeat : no-repeat;
+}
+
+#close_button:link, #close_button:visited{
+	display:inline-block;
+	width:59px;
+	height:60px;
+	background-image: url("http://localhost/forumH2/images/rpg/clans/create/buttons/close_button.png");
+	background-repeat : no-repeat;
+}
+
+#close_button:hover{
+	display:inline-block;
+	width:59px;
+	height:60px;
+	background-image: url("http://localhost/forumH2/images/rpg/clans/create/buttons/close_button2.png");
+	background-repeat : no-repeat;
+}

@@ -1,0 +1,149 @@
+<!-- INCLUDE overall_header.html -->
+
+<script type="text/javascript">
+// <![CDATA[
+	/**
+	* Change language
+	*/
+	function change_language(lang_iso)
+	{
+		document.forms['register'].change_lang.value = lang_iso;
+		document.forms['register'].submit.click();
+	}
+
+// ]]>
+</script>
+
+<form name="register" method="post" action="{S_UCP_ACTION}">
+
+<table class="tablebg" width="100%" cellspacing="1">
+<tr>
+	<td class="cats" colspan="2"></td>
+</tr>
+
+<tr>
+	<th colspan="2" valign="middle">{L_REGISTRATION}</th>
+</tr>
+
+<!-- IF ERROR -->
+	<tr>
+		<td class="row3" colspan="2" align="center"><span class="gensmall error">{ERROR}</span></td>
+	</tr>
+<!-- ENDIF -->
+
+<!-- IF L_REG_COND -->
+	<tr>
+		<td class="row2" colspan="2"><span class="gensmall">{L_REG_COND}</span></td>
+	</tr>
+<!-- ENDIF -->
+
+
+<tr>
+	<td class="row1" width="38%"><b class="genmed">{L_USERNAME}: </b><br /><span class="gensmall">{L_USERNAME_EXPLAIN}</span></td>
+	<td class="row2"><input class="post" type="text" name="username" size="25" value="{USERNAME}" /></td>
+</tr>
+<tr>
+	<td class="row1"><b class="genmed">{L_EMAIL_ADDRESS}: </b></td>
+	<td class="row2"><input class="post" type="text" name="email" size="25" maxlength="100" value="{EMAIL}" /></td>
+</tr>
+<tr>
+	<td class="row1"><b class="genmed">{L_CONFIRM_EMAIL}: </b></td>
+	<td class="row2"><input class="post" type="text" name="email_confirm" size="25" maxlength="100" value="{EMAIL_CONFIRM}" /></td>
+</tr>
+<tr>
+	<td class="row1"><b class="genmed">{L_PASSWORD}: </b><br /><span class="gensmall">{L_PASSWORD_EXPLAIN}</span></td>
+	<td class="row2"><input class="post" type="password" name="new_password" size="25" value="{PASSWORD}" /></td>
+</tr>
+<tr>
+	<td class="row1"><b class="genmed">{L_CONFIRM_PASSWORD}: </b></td>
+	<td class="row2"><input class="post" type="password" name="password_confirm" size="25" value="{PASSWORD_CONFIRM}" /></td>
+</tr>
+<tr>
+	<td class="row1"><b class="genmed">{L_LANGUAGE}: </b></td>
+	<td class="row2"><select name="lang" onchange="change_language(this.value); return false;">{S_LANG_OPTIONS}</select></td>
+</tr>
+<tr>
+	<td class="row1"><b class="genmed">{L_TIMEZONE}: </b></td>
+	<td class="row2"><select name="tz">{S_TZ_OPTIONS}</select></td>
+</tr>
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Nom de l'arme de votre personnage : </b><br /><span class="gensmall">Il s'agit du nom que portera l'arme de votre personnage.</span></td>
+	<td class="row2"><input class="post" type="text" name="weaponname" size="50" value="" /></td>
+</tr>
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Nom du haut de votre personnage : </b><br /><span class="gensmall">Il s'agit du nom que portera le haut de votre personnage.</span></td>
+	<td class="row2"><input class="post" type="text" name="clothname" size="50" value="" /></td>
+</tr>
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Nom du bas de votre personnage : </b><br /><span class="gensmall">Il s'agit du nom que portera le bas de votre personnage.</span></td>
+	<td class="row2"><input class="post" type="text" name="leggingsname" size="50" value="" /></td>
+</tr>
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Nom des gants de votre personnage : </b><br /><span class="gensmall">Il s'agit du nom que porteront les gants de votre personnage.</span></td>
+	<td class="row2"><input class="post" type="text" name="glovesname" size="50" value="" /></td>
+</tr>
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Nom des bottes de votre personnage : </b><br /><span class="gensmall">Il s'agit du nom que porteront les bottes de votre personnage.</span></td>
+	<td class="row2"><input class="post" type="text" name="shoesname" size="50" value="" /></td>
+</tr>
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Sexe:</b></td>
+	<td class="row2"><select name="gender"><option value="M">Homme</option><option value="F">Femme</option></select></td>
+</tr>
+
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Organisation:</b><br /><span class="gensmall">L'organisation que vous choisirez vous placera dans telle ou telle faction pour le RP.</span></td>
+	<td class="row2"><select name="organisation"><option value="empire">Empire</option><option value="revo">Révolutionnaires</option><option value="eclypse">Eclypse</option><option value="conseil">Conseil</option><option value="citoyen">Citoyen</option></select></td>
+</tr>
+<tr>
+	<th colspan="2" valign="middle"><span style="color:red">[Obligatoire]</span> <a href="viewtopic.php?f=6&t=13"><span style="color:white">Lire le règlement</span></a></th>
+</tr>
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Réponse secrete 1 : </b><br /><span class="gensmall">Quel est la couleur de mes chaussettes ?</span></td>
+	<td class="row2"><input class="post" type="text" name="secret1" size="50" value="" /></td>
+</tr>
+<tr>
+	<td class="row1" width="38%"><b class="genmed">Réponse secrete 2 : </b><br /><span class="gensmall">Un dernier mot ?</span></td>
+	<td class="row2"><input class="post" type="text" name="secret2" size="50" value="" /></td>
+</tr>
+<!-- IF .profile_fields -->
+	<tr>
+		<td class="row2" colspan="2"><span class="gensmall">{L_ITEMS_REQUIRED}</span></td>
+	</tr>
+<!-- BEGIN profile_fields -->
+	<tr>
+		<td class="row1" width="35%">
+			<b class="genmed">{profile_fields.LANG_NAME}: </b>
+			<!-- IF profile_fields.S_REQUIRED --><b>*</b><!-- ENDIF -->
+			<!-- IF profile_fields.LANG_EXPLAIN --><br /><span class="gensmall">{profile_fields.LANG_EXPLAIN}</span><!-- ENDIF -->
+		</td>
+		<td class="row2">{profile_fields.FIELD}<!-- IF profile_fields.ERROR --><br /><span class="gensmall error">{profile_fields.ERROR}</span><!-- ENDIF --></td>
+	</tr>
+<!-- END profile_fields -->
+
+<!-- ENDIF -->
+
+		<!-- IF CAPTCHA_TEMPLATE -->
+		<!-- INCLUDE {CAPTCHA_TEMPLATE} -->
+		<!-- ENDIF -->
+
+<!-- IF S_COPPA -->
+	<tr>
+		<th colspan="2" valign="middle">{L_COPPA_COMPLIANCE}</th>
+	</tr>
+	<tr>
+		<td class="row3" colspan="2"><span class="gensmall">{L_COPPA_EXPLAIN}</span></td>
+	</tr>
+<!-- ENDIF -->
+<tr>
+	<td class="cati" colspan="2"></td>
+</tr>
+<tr>
+	<td class="cat" colspan="2" align="center">{S_HIDDEN_FIELDS}<input class="btnmain" type="submit" name="submit" id="submit" value="{L_SUBMIT}" />&nbsp;&nbsp;<input class="btnlite" type="reset" value="{L_RESET}" name="reset" /></td>
+</tr>
+
+</table>
+{S_FORM_TOKEN}
+</form>
+
+<!-- INCLUDE overall_footer.html -->

@@ -1,0 +1,474 @@
+﻿body {
+	background-image : url("http://localhost/forumH2/images/rpg/background.png");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+}
+
+#status_div {
+	/*border : 1px solid red;*/
+	position:absolute;
+	width:1359px;
+	height:618px;
+	top:0;
+	left:0;
+	text-align:center;
+	/*top:50%;
+	left:50%;
+	margin-left:-679px;
+	margin-top:-309px;*/
+	
+	/*margin:auto;*/
+	
+	font-family:"Ace Futurism";
+	
+	font-size:21px;
+}
+
+#status_table {
+	text-align:left;
+	z-index:1;
+	
+}
+
+#close_button:link, #close_button:visited {
+	display:inline-block;
+	position:absolute;
+	z-index:2;
+	
+	
+	left:654px;
+	/*margin-left:654px;
+	margin-top:-960px;*/
+	width:54px;
+	height:54px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/status/icons/Fermer.png");
+	background-repeat : no-repeat;
+}
+
+#close_button:hover {
+	display:inline-block;
+	position:absolute;
+	z-index:2;
+	
+	left:654px;
+	/*margin-left:654px;
+	margin-top:-960px;*/
+	width:54px;
+	height:54px;
+	
+	background-image: url("http://localhost/forumH2/images/rpg/status/icons/FermerCLIC.png");
+	background-repeat : no-repeat;
+}
+
+
+#character_info {
+	background-image : url("http://localhost/forumH2/images/rpg/status/character_status_bg2.png");
+	background-repeat: repeat-y;
+	/*background-attachment : fixed;*/
+	width : 676px;
+	/*height : 100%;*/
+	padding : 0;
+	margin:auto;
+}
+
+#character_info tbody tr {
+	margin : 0;
+	padding : 0;
+}
+
+
+.character_status_window_text {
+	color : white;
+}
+
+#character_status_window {
+	/*width : 676px;
+	height : 850px;
+	margin-left : 2%;
+	margin-top : 2%;*/
+	
+}
+
+#character_status_bg {
+	display: block;
+	width : 676px;
+	/*height : 850px;*/
+	/*margin: auto;*/
+}
+
+#character_status_text_display {
+	display: block;
+	width:599px;
+	/*margin: auto;*/
+	padding-top : 18px;
+	padding-left : 35px;
+	padding-right : 35px;
+	padding-bottom : 18px;
+	/*padding-top : 2%;
+	padding-bottom : 2%;
+	padding-left : 5%;
+	padding-right : 5%;*/
+}
+
+#character_avatar {
+	width : 200px;
+	height : 300px;
+	border-width: 2px;
+	border-color: white;
+	border-style:inset;
+	margin: auto;
+	margin-left : 35px;
+	/*margin-left : 15%;*/
+	margin-right : 28px;
+}
+
+#character_equipment {
+	position: relative; /*l'élément est positionné mais il se place tout seul*/
+	width: 369px;
+	height: 167px;
+	margin: auto;
+	margin-left : -18px;
+	margin-right : 38px;
+	/*margin: auto;*/
+	/*padding-right: 8%;*/
+	
+}
+
+#character_equipment img {
+  display : inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*#character_equipment span {
+  display : inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
+
+#character_equipment_text {
+	display : inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*padding-top: 10%;
+	padding-left: 10%;*/
+	text-align : left;
+	padding-top: 35px;
+	padding-left: 35px;
+	line-height:20px;
+}
+
+#character_equipment_text span {
+	
+}
+
+.equipment_change_link:link, .equipment_change_link:visited, .equipment_change_link:hover {
+	text-decoration:none;
+	color:white;
+}
+
+
+
+#character_orb1 {
+	display : block;
+	
+	margin-top : 2px;
+	margin-bottom : 2px;
+	
+	cursor:pointer;
+	
+	/*margin-top : 2%;
+	margin-bottom : 2%;*/
+}
+
+#character_orb2 {
+	display : block;
+	
+	margin-left : 15px;
+	margin-top : 2px;
+	margin-bottom : 2px;
+	
+	cursor:pointer;
+	
+	/*margin-left : 5%;
+	margin-top : 2%;
+	margin-bottom : 2%;*/
+}
+
+#character_orb3 {
+	display : block;
+	margin-left : 15px;
+	margin-top : 2px;
+	margin-bottom : 2px;
+	
+	cursor:pointer;
+	
+	/*margin-left : 5%;
+	margin-top : 2%;
+	margin-bottom : 2%;*/
+}
+
+#character_orb4 {
+	display : block;
+	margin-top : 2px;
+	margin-bottom : 2px;
+	
+	cursor:pointer;
+	
+	/*margin-top : 2%;
+	margin-bottom : 2%;*/
+}
+
+
+#character_hp_text {
+	float: right;
+}
+
+.bars_multilayer {
+  position: relative; /*l'élément est positionné mais il se place tout seul*/
+  width: 202px;
+  height: 10px;
+  margin: auto;
+  
+  /*margin-left : 15%;*/
+  margin-left : 38px;
+}
+
+.bars_multilayer img {
+  display : inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  /*border-width: 1px;
+  border-color: white;
+  border-style:inset;*/
+}
+ 
+.layer1 {
+  z-index: 1;
+}
+ 
+.layer2{
+  z-index: 2;
+}
+
+#character_state {
+	font-size:14px;
+}
+
+#character_stats {
+	/*margin-left : 38px;*/
+	vertical-align : middle;
+}
+
+.stat_link:link, .stat_link:visited, .stat_link:hover {
+	text-decoration:none;
+	color:white;
+}
+
+#character_stats p{
+	vertical-align : middle;
+}
+
+#character_skills_bg{
+	
+}
+
+#character_skills {
+	background-image:url("http://localhost/forumH2/images/rpg/status/skills_bg.png");
+	background-repeat:no-repeat;
+	vertical-align : middle;
+	width: 308px;
+	height: 159px;
+}
+
+.skill_info{
+	vertical-align : middle;
+	cursor: pointer;
+}
+
+#character_level {
+	width:112px;
+	height:24px;
+	margin:auto;
+	text-align: center;
+}
+
+#character_level_display {
+	font-size:50px;
+	font-weight:900;
+	margin-top:50px;
+	color: rgb(128,255,128);
+}
+
+
+
+
+
+#character_inventory{
+	position: relative; /*l'élément est positionné mais il se place tout seul*/
+	width: 582px;
+	height: 141px;
+	margin: auto;
+	margin-bottom : 18px;
+	/*margin-left : -18px;
+	margin-right : 38px;*/
+	/*margin: auto;*/
+	/*padding-right: 8%;*/
+	
+}
+
+#character_inventory img {
+  display : inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+#menu {
+	position:absolute;
+	z-index:200;
+	background-color:rgb(36,55,81);
+	visibility:hidden;
+	border:2px outset white;
+	margin:0;
+	padding:0;
+}
+
+#menu ul {
+	list-style-type:none;
+	padding:2px;
+	margin:0;
+}
+
+#menu ul li{
+	padding:0;
+	margin:0;
+	color:white;
+}
+
+#menu ul li a:link, #menu ul li a:visited {
+	text-decoration:none;
+	color:white;
+}
+
+#menu ul li a:hover {
+	text-decoration:none;
+	color:rgb(159,241,238);
+}
+
+
+
+
+
+
+
+
+#user_info {
+	background-image : url("http://localhost/forumH2/images/rpg/status/character_status_bg2.png");
+	background-repeat: no-repeat;
+	width : 676px;
+	/*height : 100%;*/
+	padding : 0;
+	margin:auto;
+}
+
+#user_main_info {
+	display:table-cell;
+	background-image:url("http://localhost/forumH2/images/rpg/status/user_info_frame.png");
+	background-repeat:no-repeat;
+	text-align:left;
+	
+	width: 472px;
+	height: 320px;
+	margin:0;
+	padding:0;
+	line-height:20px;
+	/*vertical-align : middle;
+	margin:auto;*/
+}
+
+#user_main_info p {
+	/*margin-top:22px;
+	margin-bottom:22px;*/
+}
+
+#user_forum_info {
+	display:table-cell;
+	background-image:url("http://localhost/forumH2/images/rpg/status/user_info_frame2.png");
+	background-repeat:no-repeat;
+	text-align:left;
+	width: 472px;
+	height: 128px;
+	margin:0;
+	padding:0;
+	line-height:15px;
+	
+	/*margin:auto;
+	margin-bottom : 18px;*/
+}
+
+#user_forum_info p {
+	/*vertical-align : middle;
+	margin-top:14px;
+	margin-bottom:14px;*/
+}
+
+
+#options_div {
+	background-image : url("http://localhost/forumH2/images/rpg/status/character_status_bg2.png");
+	background-repeat: repeat-y;
+	
+	width:460px;
+	height:168px;
+	
+	margin:auto;
+	margin-top:20px;
+	border: 2px solid rgb(144,114,253);
+	padding:0;
+	/*background-color : rgb(144,114,253);*/
+}
+
+#options_bg {
+	position:relative;
+	
+	left:60px;
+	top:-168px;
+	
+	width:400px;
+	height:168px;
+}
+
+.options_div_line {
+	height:24px;
+	line-height:24px;
+	vertical-align:middle;
+	
+	margin-left:20px;
+	margin-top:23px;
+	
+	color:white;
+	font-size:18px;
+}
+
+.options_div_line .active_option {
+	color: white;
+	text-decoration:none;
+}
+
+.options_div_line .inactive_option {
+	color: cyan;
+	text-decoration:none;
+}
+
+
+
+

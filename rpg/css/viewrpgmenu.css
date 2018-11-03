@@ -1,0 +1,40 @@
+body {
+	background-image: url("http://localhost/forumH2/images/rpg/menu/background.png");
+	background-repeat : no-repeat;
+	background-size : 100% 100%;
+	background-attachment : fixed;
+}
+
+.bars_multilayer {
+  position: relative; /*l'élément est positionné mais il se place tout seul*/
+  width: 202px;
+  height: 10px;
+  margin: auto;
+  
+  /*margin-left : 15%;*/
+  padding:0;
+}
+
+.bars_multilayer img {
+  display : inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  /*border-width: 1px;
+  border-color: white;
+  border-style:inset;*/
+}
+ 
+.layer1 {
+  z-index: 1;
+}
+ 
+.layer2{
+  z-index: 2;
+}
+
+.info {
+	margin-top:5px;
+	margin-bottom:5px;
+}

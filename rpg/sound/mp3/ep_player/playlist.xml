@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist>
+    <trackList>
+  
+        <track>
+            <location>../Zone01.mp3</location>
+            <title>Welcome to EP Player</title>
+            <creator>E-Phonic</creator>
+			<jsbutton>alert('buy item 1')</jsbutton>
+			<!-- <image>mp3/album.gif</image> -->
+        </track>
+                                                               
+	</trackList>
+</playlist>

@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+<TITLE>Tout JavaScript.com - Ouverture d'une PopUp centré</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+//D'autres scripts sur http://www.toutjavascript.com
+//Si vous utilisez ce script, merci de m'avertir !  < webmaster@toutjavascript.com >
+function PopupCentrer(page,largeur,hauteur,options) {
+  var top=(screen.height-hauteur)/2;
+  var left=(screen.width-largeur)/2;
+  window.open(page,"","top="+top+",left="+left+",width="+largeur+",height="+hauteur+","+options);
+}
+</SCRIPT>
+</HEAD>
+
+<BODY bgcolor="white" text="#FAFAFF" alink="#000066" link="#000066" vlink="#000066" >
+<CENTER><BIG>Ouvrir un popup centré</BIG></CENTER><BR><BR>
+<FONT FACE="Arial" SIZE='-1' COLOR="#333333">
+Pour ouvrir une fen&ecirc;tre POPUP, <A HREF='javascript:PopupCentrer("bantjs3.gif",500,70,"menubar=no,scrollbars=no,statusbar=no")'>Cliquez sur ce lien</A>. <BR><BR>
+
+<form>Ou cliquez sur ce bouton : 
+	<input type='button' value='Pop Up' onClick='PopupCentrer("bantjs3.gif",500,70,"menubar=no,scrollbars=no,statusbar=no")'>
+</form>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<CENTER><A href="http://www.toutjavascript.com"><FONT size="1" face="arial" color="#CCCCFF">Tout JavaScript.com</FONT></A></CENTER>
+
+</FONT></BODY></HTML>
+<!-- Script développé par Olivier Hondermarck  webmaster@toutjavascript.com -->
+<!-- D'autres scripts et des conseils sur http://www.toutjavascript.com -->
